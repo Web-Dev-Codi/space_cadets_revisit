@@ -11,7 +11,7 @@ export default function Articles() {
 
 	console.log(data);
 	return (
-		<div className="flex flex-col mx-auto my-32 text-white w-full">
+		<div className="flex flex-col mx-auto my-32 text-white w-full h-full">
 			{data.map((item) => (
 				<article
 					className="flex bg-white transition hover:shadow-xl dark:bg-[#283c4e] dark:shadow-gray-800/25 my-11 w-2/4 mx-auto"
