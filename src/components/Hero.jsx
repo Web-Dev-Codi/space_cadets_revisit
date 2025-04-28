@@ -4,7 +4,7 @@ import SolarSystem from "./SolarSystem";
 
 export default function Hero() {
 	return (
-		<section className="md:w-3/4 m-auto mt-32 mb-40 h-full relative">
+		<section className="md:w-3/4 m-auto mt-32 mb-40 h-full relative w-full">
 			<div className="p-12 md:p-12 lg:px-16 lg:py-24 relative z-10">
 				<div className="text-left ltr:sm:text-left rtl:sm:text-right">
 					<h2 className="flex gap-5 flex-col text-4xl font-bold text-white sm:text-3xl md:text-5xl">
