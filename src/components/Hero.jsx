@@ -11,9 +11,9 @@ export default function Hero() {
 						<span>with Us</span>
 					</h2>
 					<p className="max-w-lg text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
-						Lorem ipsum dolor, sit amet consectetur adipisicing
-						elit. Inventore officia corporis quasi doloribus iure
-						architecto quae voluptatum beatae excepturi dolores.
+						Embark on a cosmic journey through our solar system with
+						interactive guides and stunning visuals. Discover the wonders
+						of each planet, from their unique features to scientific facts.
 					</p>
 					<div className="mt-8 flex flex-wrap gap-4 text-center">
 						<Link
