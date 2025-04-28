@@ -2,6 +2,9 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+const currentYear = new Date().getFullYear();
+
+
 	return (
 		<footer className="relative">
 			<div className="mx-auto max-w-3xl px-4 py-0 sm:px-6 lg:px-8 lg:p-1">
@@ -153,10 +156,11 @@ export default function Footer() {
 			</div>
 			{/* All rights reserved, Terms and Conditions, Privacy Policy Cookies */}
 			<div className="sm:flex sm:justify-center gap-20 mt-4">
-				<p className="text-xs text-white-500">
-					&copy; 2024. Space_Cadets. All rights reserved.
-				</p>
+
 				<ul className="mt-8 mb-2 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
+					<li className="text-xs text-white-500">
+					&copy; {currentYear}. Space_Cadets. All rights reserved.
+				</li>
 					<li>
 						<a
 							href="#"
